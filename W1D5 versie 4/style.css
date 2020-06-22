@@ -1,0 +1,68 @@
+/* Ik heb de visibility van de navigatie sidebar even uit ge-comment, omdat er anders niets te zien was.
+    Het is namelijk niet gelukt om die met een click op het hamburger-icoon te laten verschijnen.
+*/
+
+
+.beige-blackground {
+    background-color: beige;
+}
+
+.blue-background {
+	background-color: blue; 
+}
+.red-background {
+	background-color: red; 
+}
+
+.btn-nav {
+    width: 60px;
+    background-color: bisque;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+
+#nav-sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: calc(100vh - 80px);
+    list-style: none;
+ /*    visibility: hidden; */
+
+}
+
+li {
+        padding: 20px 65px;  
+        list-style: none;
+        background-color: lightslategray;
+    }
+
+
+
+.red {
+    background-color: red;
+}
+.orange {
+    background-color: orange;
+}
+.green {
+    background-color: green;
+}
+.purple {
+    background-color: purple ;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover img {    
+    background: rgb(206, 180, 141);
+  }
+
+.red-background {
+	background-color: red; 
+}

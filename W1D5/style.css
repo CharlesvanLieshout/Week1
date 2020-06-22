@@ -1,0 +1,45 @@
+body {
+    background-color: beige;
+}
+
+.btn-nav {
+    width: 60px;
+    background-color: eee;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.nav-sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: calc(100vh - 50px);
+   /*  visibility: hidden; */
+}
+
+ul {   
+    list-style: none;
+}
+
+li {
+        padding: 20px 65px;
+        
+    }
+.red {
+    background-color: red;
+}
+.orange {
+    background-color: orange;
+}
+.green {
+    background-color: green;
+}
+.purple {
+    background-color: purple ;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
